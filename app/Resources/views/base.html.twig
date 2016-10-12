@@ -5,6 +5,7 @@
         <title>{% block title %}{% endblock %} - Projet Béber</title>
         {% block stylesheets %}{% endblock %}
         <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> {# framework CSS3 w3school doc : http://www.w3schools.com/w3css/default.asp #}
+        <link rel="stylesheet" href="{{ asset('css/custom.css') }}"> {# fichier css présent ds web/css/custom.css #}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"> {# icones http://fontawesome.io/icons/ #}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
