@@ -13,7 +13,7 @@ class HomeController extends Controller
      * @Route("/", name="homepage")
      * @Security("has_role('ROLE_USER')")
      */
-    public function indexAction(Request $request)
+    public function indexAction()
     {
         // replace this example code with whatever you need
         return $this->render(':home:index.html.twig');
